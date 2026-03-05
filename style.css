@@ -100,3 +100,20 @@ input:focus {
     background: var(--accent); 
 }
 
+/* LIST HEADER */
+.list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 5px 15px;
+}
+
+.list-header h3 {
+    font-size: 1.1rem;
+    color: var(--text);
+}
+
+/* TODO LIST WRAPPER */
+.todo-list-wrapper {
+    min-height: 100px;
+}
