@@ -70,3 +70,33 @@ input {
   font-family: inherit;
   transition: 0.2s;
 }
+
+input[type="text"] { 
+    flex: 2; 
+}
+
+input[type="date"] { 
+    flex: 1; 
+    font-size: 0.8rem; 
+}
+
+input:focus { 
+    border-color: var(--accent); 
+    background: #fff; 
+}
+
+.add-button {
+  background: var(--text);
+  color: white;
+  border: none;
+  padding: 0 20px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.add-button:hover { 
+    background: var(--accent); 
+}
+
