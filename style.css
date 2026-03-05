@@ -26,10 +26,26 @@ body {
   padding: 40px 20px;
 }
 
+.container {
+  max-width: 550px;
+  margin: 0 auto;
+}
+
 /* HEADER */
 header { 
     margin-bottom: 30px; 
 }
 
+h1 {
+  font-family: 'DM Serif Display', serif;
+  font-size: 3rem;
+  letter-spacing: -1px;
+  margin-bottom: 4px;
+}
+
+.subtitle { 
+    color: var(--muted); 
+    font-size: 1rem; 
+}
 
 
