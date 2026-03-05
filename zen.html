@@ -6,6 +6,7 @@
     <title>ZenFocus To-Do</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
@@ -14,9 +15,9 @@
             <p class="subtitle">Organize your thoughts, master your day.</p>
         </header>
 
-         <div class="input-card">
-            <input type="text" placeholder="What's the next task?">
-            <input type="date">
+        <div class="input-card">
+            <input type="text" placeholder="What's the next task?" class="js-input">
+            <input type="date" class="js-date-input">
             <button class="add-button">Add Task</button>
         </div>
 
@@ -24,9 +25,7 @@
             <h3>Your Tasks</h3>
         </div>
         
-        <div class="todo-list-wrapper"></div>
-
-       
+        <div class="js-todo-list todo-list-wrapper"></div>
     </div>
 </body>
 </html>
