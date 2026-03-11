@@ -18,8 +18,10 @@
         <div class="input-card">
             <input type="text" placeholder="What's the next task?" class="js-input">
             <input type="date" class="js-date-input">
-            <button class="add-button">Add Task</button>
+            <button onclick="addTodo()" class="add-button">Add Task</button>
         </div>
+
+        <p class="error-msg js-error">Please enter a task name!</p>
 
         <div class="list-header">
             <h3>Your Tasks</h3>
