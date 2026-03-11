@@ -53,3 +53,16 @@ function addTodo() {
   }
 
 
+  errorEl.style.display = 'none';
+  
+  todoList.push({ 
+    name: name, 
+    dueDate: dueDate, 
+    completed: false 
+  });
+  
+  inputElement.value = '';
+  setDefaultDate(); 
+  
+  renderTodoList();
+}
